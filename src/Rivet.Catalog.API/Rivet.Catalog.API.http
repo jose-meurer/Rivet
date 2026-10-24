@@ -1,0 +1,6 @@
+@Rivet.Catalog.API_HostAddress = http://localhost:5194
+
+GET {{Rivet.Catalog.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

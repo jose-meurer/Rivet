@@ -1,8 +1,5 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="src/Rivet.Api/Rivet.Api.csproj" />
-    <Project Path="src/Rivet.Core/Rivet.Core.csproj" />
-    <Project Path="src/Rivet.Infrastructure/Rivet.Infrastructure.csproj" />
-    <Project Path="src/Rivet.Web/Rivet.Web.csproj" />
+    <Project Path="src/Rivet.Catalog.API/Rivet.Catalog.API.csproj" />
   </Folder>
 </Solution>
