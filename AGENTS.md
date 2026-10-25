@@ -12,18 +12,32 @@ Uso o eShop App Workshop(https://github.com/dotnet-presentations/eshop-app-works
 - Divida o trabalho em blocos funcionais verificáveis, com tamanho suficiente
   para desenvolver uma funcionalidade completa.
 - Em modo de aprendizado, trabalhe uma funcionalidade por vez.
-- Explique as decisões importantes e recomende uma abordagem com justificativa.
+- As decisões técnicas e de negócio ficam comigo. Não escolha nem implemente
+  uma alternativa ainda não decidida por mim.
+- Sempre que houver qualquer dúvida, lacuna, ambiguidade ou informação
+  ausente, pergunte antes de prosseguir na parte afetada. Nunca preencha
+  lacunas com suposições nem tome decisões por mim, mesmo que pareçam pequenas
+  ou óbvias. Apresente soluções possíveis para apoiar minha decisão.
+- Sempre traga soluções para os problemas: apresente alternativas viáveis,
+  explique vantagens, desvantagens e impactos e recomende uma abordagem com
+  justificativa, deixando a decisão final comigo.
+- Agrupe as decisões necessárias ao bloco funcional e apresente propostas
+  concretas para eu avaliar antes de implementar ou orientar sua implementação.
+  Respeite decisões já tomadas, sem pedir confirmação novamente, a menos que
+  novas evidências exijam reconsiderá-las.
 - Faça menos perguntas durante o desenvolvimento. Reserve perguntas de
-  consolidação para o final de cada funcionalidade; pergunte antes somente
-  quando faltar uma informação que realmente impeça o trabalho.
+  consolidação para o final de cada funcionalidade. Essa preferência não
+  dispensa esclarecer qualquer dúvida ou lacuna antes de prosseguir;
+  agrupe os esclarecimentos quando possível, sem assumir respostas.
 - Podemos alternar quem escreve o código.
 - Quando eu pedir implementação, implemente a etapa combinada
-  e explique as decisões.
+  conforme as decisões que tomei e explique como foram aplicadas.
 - Quando eu implementar, revise e me ajude a corrigir.
 - Ajuste a profundidade das explicações ao conhecimento que demonstro.
 - Quando eu estiver implementando, apresente o bloco completo de orientação:
   visão geral, classes, pastas, código por arquivo, decisões e verificação.
-  Evite pedir confirmação ou interromper a orientação a cada linha ou arquivo.
+  Evite confirmações repetidas sobre decisões já tomadas, mas interrompa a
+  parte afetada da orientação sempre que surgir uma dúvida ou lacuna.
 
 # Implementação e investigação
 
@@ -37,7 +51,8 @@ Uso o eShop App Workshop(https://github.com/dotnet-presentations/eshop-app-works
 # Arquitetura
 
 - Prefira arquitetura em camadas ou Clean Architecture, conforme a complexidade
-  e as responsabilidades da funcionalidade. Explique a escolha e as dependências.
+  e as responsabilidades da funcionalidade. Apresente a proposta e suas
+  dependências para minha decisão, respeitando escolhas já feitas.
 - Para APIs de negócio, prefira controllers como camada de entrada HTTP,
   mantendo as responsabilidades de aplicação, domínio e infraestrutura
   separadas conforme necessário.
@@ -57,6 +72,13 @@ Uso o eShop App Workshop(https://github.com/dotnet-presentations/eshop-app-works
 - Priorize o Microsoft Learn para C#, ASP.NET Core e EF Core.
 - Confira a compatibilidade com as versões do projeto.
 - Relacione a documentação ao código em desenvolvimento.
+- Sempre que apresentar trechos de código ou uma implementação, inclua um
+  resumo do problema resolvido, dos motivos da abordagem e de como o código
+  funciona, além de links para as fontes que posso consultar para aprofundar.
+- Use fontes oficiais e específicas para os conceitos apresentados,
+  priorizando o Microsoft Learn. Confira as fontes e sua compatibilidade com
+  as versões do projeto; não invente referências nem apresente hipóteses como
+  conteúdo confirmado pela documentação.
 
 # Consolidação
 
